@@ -1,7 +1,18 @@
+# Luban (Build Compatibility Fork)
+
+> [!NOTE]
+> **English:**
+> This repository is a **compatibility-focused fork** of [Luban v2](https://github.com/Curzibn/Luban).
+> * **NO source code logic has been changed.** The core compression algorithm remains exactly the same as the original.
+> * **Changes:** solely modified the `build.gradle` dependencies and versions. The original v2 branch relies on bleeding-edge versions (Kotlin 2.3.0, Android 16 Preview), which causes compilation errors in standard environments.
+> * **Target Environment:** Adjusted to support **Kotlin 1.9.23**, **AGP 8.6.0**, and **CompileSdk 35**.
+>
+---
+
 # Luban 2
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Maven Central](https://img.shields.io/maven-central/v/top.zibin/luban.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:top.zibin%20a:luban)
+[![Maven Central](https://img.shields.io/maven-central/v/top.zibin/luban.svg?label=Maven%20Central)](https://central.sonatype.com/search?q=io.github.logan0817%3Aluban&smo=true)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 [English](README_EN.md) | [中文](README.md)
@@ -73,7 +84,7 @@ Add the dependency to your module's `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("top.zibin:luban:2.0.1")
+    implementation("io.github.logan0817:2.0.1")
 }
 ```
 

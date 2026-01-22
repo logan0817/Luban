@@ -1,7 +1,16 @@
+# Luban (Build Compatibility Fork / 构建适配版)
+
+> 本仓库是 [Luban v2](https://github.com/Curzibn/Luban) 的**构建适配版本**。
+> * **核心源码未做任何修改**：压缩逻辑与原版完全一致。
+> * **修改内容**：仅调整了 `build.gradle` 中的依赖版本。原版 v2 引入了过于激进的依赖（如 Kotlin 2.3.0, Android 16 预览版），导致在常规项目中无法编译。
+> * **适用环境**：已降级适配 **Kotlin 1.9.23**、**AGP 8.6.0** 以及 **CompileSdk 35**。 ✅ **解决冲突**：修复了 `core-ktx` 版本过高和 `buildSrc` 插件版本冲突的问题。
+
+---
+
 # Luban 2
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Maven Central](https://img.shields.io/maven-central/v/top.zibin/luban.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:top.zibin%20a:luban)
+[![Maven Central](https://img.shields.io/maven-central/v/top.zibin/luban.svg?label=Maven%20Central)](https://central.sonatype.com/search?q=io.github.logan0817%3Aluban&smo=true)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 [中文](README.md) | [English](README_EN.md)
@@ -79,21 +88,22 @@ repositories {
 
 **Kotlin DSL (`build.gradle.kts`):**
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.logan0817/luban.svg?label=Latest%20Release)](https://central.sonatype.com/artifact/io.github.logan0817/luban)
 ```kotlin
 dependencies {
-    implementation("top.zibin:luban:2.0.1")
+    implementation("io.github.logan0817:2.0.1") // 替换为上方徽章显示的最新版本
 }
 ```
 
 **Groovy (`build.gradle`):**
-
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.logan0817/luban.svg?label=Latest%20Release)](https://central.sonatype.com/artifact/io.github.logan0817/luban)
 ```groovy
 dependencies {
-    implementation 'top.zibin:luban:2.0.1'
+    implementation 'io.github.logan0817:2.0.1' // 替换为上方徽章显示的最新版本
 }
 ```
 
-> 注意：请访问 [Maven Central](https://search.maven.org/search?q=g:top.zibin%20a:luban) 查看最新版本号。
+> 注意：请访问 [Maven Central](https://central.sonatype.com/search?q=io.github.logan0817%3Aluban&smo=true) 查看最新版本号。
 
 # 💻 使用
 
