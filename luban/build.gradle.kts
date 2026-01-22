@@ -10,7 +10,7 @@ val libraryVersion = "2.0.1"
 
 android {
     namespace = "top.zibin.luban"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 21

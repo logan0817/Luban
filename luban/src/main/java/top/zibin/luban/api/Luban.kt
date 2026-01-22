@@ -78,7 +78,7 @@ class Luban @JvmOverloads constructor(
          * @return 包含压缩后 [File] 或异常信息的 [Result]。
          * A [Result] containing the compressed [File] or the exception if failed.
          */
-        @JvmOverloads
+        //@JvmOverloads
         suspend fun compress(context: Context, input: Uri, outputDir: File = context.cacheDir): Result<File> {
             return defaultInstance.compress(context, input, outputDir)
         }
