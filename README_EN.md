@@ -84,7 +84,7 @@ Add the dependency to your module's `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("io.github.logan0817:2.0.1")
+    implementation("io.github.logan0817:luban:2.0.1")
 }
 ```
 
