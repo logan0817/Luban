@@ -8,6 +8,8 @@
 > * **Target Environment:** Adjusted to support **Kotlin 1.9.23**, **AGP 8.6.0**, and **CompileSdk 35**.
 >
 ---
+> * **Maintenance Plan:** This repository only maintains build configuration compatibility. We will update it as soon as the original author (https://github.com/Curzibn/Luban) makes an update.
+---
 
 # Luban 2
 

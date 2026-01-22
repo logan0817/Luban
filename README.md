@@ -7,6 +7,9 @@
 
 ---
 
+> * **维护计划：** 本仓库仅维护构建配置的兼容性。一旦[原作者](https://github.com/Curzibn/Luban)有更新，我们将同步更新。
+
+---
 # Luban 2
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
